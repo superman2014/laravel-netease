@@ -66,4 +66,6 @@ Step4: 代码中使用
 
 ```
 
-更多方法参见`Superman2014\Netease\NeteaseAPI`类,可用的方法如:createUserId,updateUserId,blockUserId,unblockUserId 等等.
+更多方法参见`Superman2014\Netease\NeteaseAPI`类,
+
+可用的方法如:createUserId,updateUserId,blockUserId,unblockUserId 等等.
