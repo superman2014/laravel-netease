@@ -45,3 +45,25 @@ return [
 
 Step4: 代码中使用
 
+
+```
+>>> use Netease;
+=> null
+>>> $accid = md5(10);
+=> "d3d9446802a44259755d38e6d163e820"
+>>> $name = 'helloworld';
+=> "helloworld"
+>>> Netease::createUserId($accid, $name);
+=> [
+     "code" => 200,
+     "info" => [
+       "token" => "29df2b6a63bb820271fe66ffeeeebc67",
+       "accid" => "d3d9446802a44259755d38e6d163e820",
+       "name" => "helloworld",
+     ],
+   ]
+>>>
+
+```
+
+更多方法参见`Superman2014\Netease\NeteaseAPI`类,可用的方法如:createUserId,updateUserId,blockUserId,unblockUserId 等等.
