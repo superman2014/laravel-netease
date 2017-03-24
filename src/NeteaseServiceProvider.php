@@ -18,7 +18,7 @@ class NeteaseServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
-                __DIR__.'/../../config/netease.php' => config_path('netease.php'),
+                __DIR__.'/../config/netease.php' => config_path('netease.php'),
             ], 'config');
         }
     }
