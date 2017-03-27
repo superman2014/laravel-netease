@@ -1,7 +1,7 @@
 # Netease
 
 
-Step1: 安装, `composer require "superman2014/netease:dev-master"`
+Step1: 安装, `composer require "superman2014/netease:1.0.x@dev"`
 
 Step2: 注册 `Superman2014\Netease\NeteaseServiceProvider` 到`config/app.php` 配置文件:
 
