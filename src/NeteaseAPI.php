@@ -43,7 +43,7 @@ class NeteaseAPI
     {
         //此部分生成随机字符串
         $hex_digits = self::HEX_DIGITS;
-        $this->Nonce;
+        $this->Nonce = '';
         for ($i = 0; $i < 128; ++$i) {            //随机字符串最大128个字符，也可以小于该数
             $this->Nonce .= $hex_digits[rand(0, 15)];
         }
